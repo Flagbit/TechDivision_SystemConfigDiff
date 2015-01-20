@@ -1,0 +1,10 @@
+{
+    "name": "flagbit/systemconfigdiff",
+    "license": "OSL 3.0",
+    "type": "magento-module",
+    "version":"0.1.5beta",
+    "description": "TechDivision SystemConfigDiff",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
