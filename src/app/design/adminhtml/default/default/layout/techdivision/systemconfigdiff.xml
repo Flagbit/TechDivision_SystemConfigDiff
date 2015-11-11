@@ -24,7 +24,7 @@
  */
  -->
 <layout version="0.1.0">
-    <techdivision_systemconfigdiff_adminhtml_index_index>
+    <adminhtml_systemconfigdiff_index_index>
         <reference name="content">
             <block type="techdivision_systemconfigdiff/adminhtml_overview" name="diff_edit" />
         </reference>
@@ -32,5 +32,5 @@
         <reference name="left">
             <block type="techdivision_systemconfigdiff/adminhtml_overview_tabs" name="diff_tabs" />
         </reference>
-    </techdivision_systemconfigdiff_adminhtml_index_index>
+    </adminhtml_systemconfigdiff_index_index>
 </layout>
