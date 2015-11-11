@@ -21,7 +21,7 @@
  * @since      Class available since Release 0.1.0
  * @author     Florian Sydekum <fs@techdivision.com>
  */
-class TechDivision_SystemConfigDiff_Adminhtml_IndexController
+class TechDivision_SystemConfigDiff_Adminhtml_Systemconfigdiff_IndexController
     extends Mage_Adminhtml_Controller_Action
 {
     protected function _initAction()

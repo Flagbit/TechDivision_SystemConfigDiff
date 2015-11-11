@@ -26,7 +26,7 @@
 <config>
     <modules>
         <TechDivision_SystemConfigDiff>
-            <version>0.1.5beta</version>
+            <version>0.1.6beta</version>
         </TechDivision_SystemConfigDiff>
     </modules>
     <frontend>
@@ -58,13 +58,13 @@
     </frontend>
     <admin>
         <routers>
-            <techdivision_systemconfigdiff>
-                <use>admin</use>
+           <adminhtml>
                 <args>
-                    <module>TechDivision_SystemConfigDiff</module>
-                    <frontName>admin_techdivision_systemconfigdiff</frontName>
+                    <modules>
+                        <techdivision_systemconfigdiff before="Mage_Adminhtml">TechDivision_SystemConfigDiff_Adminhtml</techdivision_systemconfigdiff>
+                    </modules>
                 </args>
-            </techdivision_systemconfigdiff>
+            </adminhtml>
         </routers>
     </admin>
     <adminhtml>
@@ -83,7 +83,7 @@
                     <diff_overview module="techdivision_systemconfigdiff" translate="title">
                         <title>Config Diff</title>
                         <sort_order>1</sort_order>
-                        <action>techdivision_systemconfigdiff/adminhtml_index</action>
+                        <action>adminhtml/systemconfigdiff_index</action>
                     </diff_overview>
                 </children>
             </system>
@@ -126,7 +126,7 @@
                 </observers>
             </controller_action_layout_render_before>
         </events>
-    </adminhtml>   
+    </adminhtml>
     <global>
         <models>
             <techdivision_systemconfigdiff>

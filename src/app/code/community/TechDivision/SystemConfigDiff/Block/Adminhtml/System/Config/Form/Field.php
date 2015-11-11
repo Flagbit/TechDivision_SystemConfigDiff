@@ -210,7 +210,7 @@ class TechDivision_SystemConfigDiff_Block_Adminhtml_System_Config_Form_Field
             $html .= $element->getScopeId();
             $html .=        '</div>';
             $html .=        '<div class="update-url">';
-            $html .= Mage::helper('adminhtml')->getUrl('techdivision_systemconfigdiff/adminhtml_index/update');
+            $html .= Mage::helper('adminhtml')->getUrl('adminhtml/systemconfigdiff_index/update');
             $html .=        '</div>';
             $html .=    '</div>';
             $html .= '</td>';
